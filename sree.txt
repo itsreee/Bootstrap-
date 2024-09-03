@@ -1,0 +1,47 @@
+
+/* header */
+header
+{
+    background-attachment:fixed;
+    backface-visibility: hidden;
+    background-size: cover;
+}
+#tea
+{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -460px;
+    margin-left: 470px;
+}
+#tree
+{
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 460px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.line
+{
+    padding:5px;
+    color: blue;
+    position: absolute;
+}
+.header-contents
+{
+    position: absolute;
+}
+.header-contents h1{
+    font-size: 50px;
+    color: rgb(253, 251, 251);
+}
+
+
+<header>
+  <div class="header-contents">
+  <img height="600px" width="1800px" src="https://wallpapercave.com/wp/wp7562838.jpg" alt="">
+   <h1 id="tea"> Experience New Cultures</h1>
+   <div class="line"><hr></div>
+   <p id="tree">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+  </div>
+</header>

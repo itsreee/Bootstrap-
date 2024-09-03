@@ -1,0 +1,177 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* carousal */
+.carousel-item h1{
+    font-size: 50px;
+    color: rgb(253, 251, 251);
+}
+.carousel-item p{
+    font-size: 20px;
+}
+/* navbar */
+.nav-links
+{
+ text-decoration: none;
+ list-style-type: none; 
+ display: flex;
+ gap: 15px;
+}
+.nop{
+    color: #ff04ab;
+    font-family: "Kalnia Glaze", serif;
+
+}
+.nop:hover
+{
+ color: rgb(89, 174, 244);
+ cursor: pointer;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: -50px;
+    margin-top: -30px;
+    background-color: rgb(245, 245, 245);
+}
+#log
+{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -20px;
+    font-family: "Kalnia Glaze", serif;
+    color: #ff04ab;
+}
+/* next */
+#res
+{
+text-align: center;
+color: rgb(31, 31, 144);
+}
+.line
+{
+   border-top: 5px solid rgb(9, 9, 9);
+   border-bottom: none;
+   border-radius: 8px;
+   margin-left: 500px;
+   margin-right: 500px;
+}
+/* card */
+.kookie
+{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 20px;
+}
+#hotel{
+    margin-left: 100px;
+}
+#resort{
+    margin-left: 100px;
+}
+.card:hover
+{
+ cursor: pointer;
+ transform: translateY(-8px);
+}
+/* 2nd card */
+.bunny{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 20px;
+}
+/* modal */
+#river
+{
+    
+    margin-top: 70px;
+    margin-left: -65px;
+    position: relative;
+}
+/* footer */
+footer
+{
+    background-color: whitesmoke;
+    padding: 100px;
+}
+
+#uniq
+{
+ 
+ list-style-type: none;
+}
+#uniqu
+{
+    list-style-type: none;
+}
+#unique
+{
+    list-style-type: none;
+}
+a{
+    /* text-decoration: underline; */
+    color: white;
+}
+
+.parent
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+.yep
+{
+text-decoration: none;
+color: black;
+}
+.yep:hover
+{
+    color: black;
+}
+#image
+{
+    margin-top: -50px;
+}
+#logi
+{
+   
+    margin-left: -130px;
+    margin-top: 20px;
+    font-family: "Kalnia Glaze", serif;
+    color: #ff04ab;
+}
+h1{
+    font-family: "Playfair Display", serif;
+}
+@media screen and (max-width:768px) {
+   .kookie{
+     flex-direction:column;
+     align-items:center
+   }
+   .bunny{
+    flex-direction: column;
+    align-items: center;
+}
+#resort{
+    margin-left: 1px;
+}
+#hotel{
+    margin-left: 1px;
+}
+.nav-links{
+    flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+}
